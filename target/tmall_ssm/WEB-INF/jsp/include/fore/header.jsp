@@ -70,7 +70,7 @@
                 alert("模仿旺旺的图标，并不会打开旺旺");
             });
             $("a.notImplementLink").click(function(){
-                alert("这个功能没做，蛤蛤~");
+                alert("we have not implemented the function~");
             });
 
 

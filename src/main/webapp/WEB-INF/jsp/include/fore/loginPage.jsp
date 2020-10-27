@@ -11,7 +11,7 @@
 
         $("form.loginForm").submit(function(){
             if(0==$("#name").val().length||0==$("#password").val().length){
-                $("span.errorMessage").html("请输入账号密码");
+                $("span.errorMessage").html("please type your username and password");
                 $("div.loginErrorMessageDiv").show();
                 return false;
             }
@@ -26,6 +26,7 @@
         $("div.loginSmallDiv").css("left",left);
     })
 </script>
+<title>HCI Project</title>
 
 <div id="loginDiv" style="position: relative">
 
@@ -44,28 +45,28 @@
                 </div>
             </div>
 
-            <div class="login_acount_text">账户登录</div>
+            <div class="login_acount_text">User login</div>
             <div class="loginInput " >
 				<span class="loginInputIcon ">
 					<span class=" glyphicon glyphicon-user"></span>
 				</span>
-                <input id="name" name="name" placeholder="手机/会员名/邮箱" type="text">
+                <input id="name" name="name" placeholder=" phone number / username / email " type="text">
             </div>
 
             <div class="loginInput " >
 				<span class="loginInputIcon ">
 					<span class=" glyphicon glyphicon-lock"></span>
 				</span>
-                <input id="password" name="password" type="password" placeholder="密码" type="text">
+                <input id="password" name="password" type="password" placeholder="password" type="text">
             </div>
-            <span class="text-danger">不要输入真实的天猫账号密码</span><br><br>
+            <span class="text-danger">do not type your true account</span><br><br>
 
             <div>
-                <a class="notImplementLink" href="#nowhere">忘记登录密码</a>
-                <a href="registerPage" class="pull-right">免费注册</a>
+                <a class="notImplementLink" href="#nowhere">forget the username or password? </a>
+                <a href="registerPage" class="pull-right">register for free</a>
             </div>
             <div style="margin-top:20px">
-                <button class="btn btn-block redButton" type="submit">登录</button>
+                <button class="btn btn-block redButton" type="submit">login</button>
             </div>
         </div>
     </form>
