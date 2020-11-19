@@ -34,7 +34,7 @@
         <a href="${contextPath}"><img src="img/site/simpleLogo.png"></a>
     </div>
 
-    <img id="loginBackgroundImg" class="loginBackgroundImg" src="img/site/loginBackground.png">
+    <img id="loginBackgroundImg" class="loginBackgroundImg" src="img/site/loginBackGround.png">
 
     <form class="loginForm" action="forelogin" method="post">
         <div id="loginSmallDiv" class="loginSmallDiv">

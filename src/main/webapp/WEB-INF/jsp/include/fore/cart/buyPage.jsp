@@ -9,26 +9,26 @@
             <div style="clear:both"></div>
         </div>
         <div class="address">
-            <div class="addressTip">输入收货地址</div>
+            <div class="addressTip">please enter your deliver address</div>
             <div>
 
                 <table class="addressTable">
                     <tr>
-                        <td class="firstColumn">详细地址<span class="redStar">*</span></td>
+                        <td class="firstColumn">specific address<span class="redStar">*</span></td>
 
-                        <td><textarea name="address" placeholder="建议您如实填写详细收货地址，例如接到名称，门牌好吗，楼层和房间号等信息"></textarea></td>
+                        <td><textarea name="address" placeholder="we suggest you indicate the real address"></textarea></td>
                     </tr>
                     <tr>
-                        <td>邮政编码</td>
-                        <td><input  name="post" placeholder="如果您不清楚邮递区号，请填写000000" type="text"></td>
+                        <td>zipcode</td>
+                        <td><input  name="post" placeholder="please enter 000000 if do not know zip code" type="text"></td>
                     </tr>
                     <tr>
-                        <td>收货人姓名<span class="redStar">*</span></td>
-                        <td><input  name="receiver"  placeholder="长度不超过25个字符" type="text"></td>
+                        <td>name<span class="redStar">*</span></td>
+                        <td><input  name="receiver"  placeholder="no longer than 25 characters" type="text"></td>
                     </tr>
                     <tr>
-                        <td>手机号码 <span class="redStar">*</span></td>
-                        <td><input name="mobile"  placeholder="请输入11位手机号码" type="text"></td>
+                        <td>phone number <span class="redStar">*</span></td>
+                        <td><input name="mobile"  placeholder="please enter the phone number" type="text"></td>
                     </tr>
                 </table>
 
@@ -36,20 +36,20 @@
 
         </div>
         <div class="productList">
-            <div class="productListTip">确认订单信息</div>
+            <div class="productListTip">confirm your order information</div>
 
             <table class="productListTable">
                 <thead>
                 <tr>
                     <th colspan="2" class="productListTableFirstColumn">
                         <img class="tmallbuy" src="img/site/tmallbuy.png">
-                        <a class="marketLink" href="#nowhere">店铺：天猫店铺</a>
+                        <a class="marketLink" href="#nowhere">tmall</a>
                         <a class="wangwanglink" href="#nowhere"> <span class="wangwangGif"></span> </a>
                     </th>
-                    <th>单价</th>
-                    <th>数量</th>
-                    <th>小计</th>
-                    <th>配送方式</th>
+                    <th>price</th>
+                    <th>nmumber</th>
+                    <th>total</th>
+                    <th>deliver</th>
                 </tr>
                 <tr class="rowborder">
                     <td  colspan="2" ></td>
@@ -68,9 +68,9 @@
                                     ${oi.product.name}
                             </a>
 
-                            <img src="img/site/creditcard.png" title="支持信用卡支付">
-                            <img src="img/site/7day.png" title="消费者保障服务,承诺7天退货">
-                            <img src="img/site/promise.png" title="消费者保障服务,承诺如实描述">
+                            <img src="img/site/creditcard.png" title="support creidt card">
+                            <img src="img/site/7day.png" title="free return of goods within 7 days ">
+                            <img src="img/site/promise.png" title="promise service">
 
                         </td>
                         <td>
@@ -87,11 +87,11 @@
                             <td rowspan="5"  class="orderItemLastTD">
                                 <label class="orderItemDeliveryLabel">
                                     <input type="radio" value="" checked="checked">
-                                    普通配送
+                                    normal delivery
                                 </label>
 
                                 <select class="orderItemDeliverySelect" class="form-control">
-                                    <option>快递 免邮费</option>
+                                    <option>free delivery</option>
                                 </select>
 
                             </td>
@@ -105,32 +105,32 @@
             </table>
             <div class="orderItemSumDiv">
                 <div class="pull-left">
-                    <span class="leaveMessageText">给卖家留言:</span>
+                    <span class="leaveMessageText">give the seller words:</span>
                     <span>
 					<img class="leaveMessageImg" src="img/site/leaveMessage.png">
 				</span>
                     <span class="leaveMessageTextareaSpan">
 					<textarea name="userMessage" class="leaveMessageTextarea"></textarea>
 					<div>
-						<span>还可以输入200个字符</span>
+						<span>you could enter 200 characters</span>
 					</div>
 				</span>
                 </div>
 
-                <span class="pull-right">店铺合计(含运费): ￥<fmt:formatNumber type="number" value="${total}" minFractionDigits="2"/></span>
+                <span class="pull-right">total(include delivery): ￥<fmt:formatNumber type="number" value="${total}" minFractionDigits="2"/></span>
             </div>
 
         </div>
 
         <div class="orderItemTotalSumDiv">
             <div class="pull-right">
-                <span>实付款：</span>
+                <span>real charge：</span>
                 <span class="orderItemTotalSumSpan">￥<fmt:formatNumber type="number" value="${total}" minFractionDigits="2"/></span>
             </div>
         </div>
 
         <div class="submitOrderDiv">
-            <button type="submit" class="submitOrderButton">提交订单</button>
+            <button type="submit" class="submitOrderButton">submit the order</button>
         </div>
     </form>
 </div>
