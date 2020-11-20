@@ -203,12 +203,12 @@
     }
 </script>
 
-<title>购物车</title>
+<title>shopping cart</title>
 <div class="cartDiv">
     <div class="cartTitle pull-right">
-        <span>已选商品  (不含运费)</span>
+        <span>chosen product (not included delivery fee)</span>
         <span class="cartTitlePrice">￥0.00</span>
-        <button class="createOrderButton" disabled="disabled">结 算</button>
+        <button class="createOrderButton" disabled="disabled">total</button>
     </div>
 
     <div class="cartProductList">
@@ -217,14 +217,14 @@
             <tr>
                 <th class="selectAndImage">
                     <img selectit="false" class="selectAllItem" src="img/site/cartNotSelected.png">
-                    全选
+                    check all
 
                 </th>
-                <th>商品信息</th>
-                <th>单价</th>
-                <th>数量</th>
-                <th width="120px">金额</th>
-                <th class="operation">操作</th>
+                <th>product information</th>
+                <th>unit price</th>
+                <th>number</th>
+                <th width="120px">total price</th>
+                <th class="operation">opreation</th>
             </tr>
             </thead>
             <tbody>
@@ -239,9 +239,9 @@
                         <div class="cartProductLinkOutDiv">
                             <a href="foreproduct?pid=${oi.product.id}" class="cartProductLink">${oi.product.name}</a>
                             <div class="cartProductLinkInnerDiv">
-                                <img src="img/site/creditcard.png" title="支持信用卡支付">
-                                <img src="img/site/7day.png" title="消费者保障服务,承诺7天退货">
-                                <img src="img/site/promise.png" title="消费者保障服务,承诺如实描述">
+                                <img src="img/site/creditcard.png" title="support creidt card">
+                                <img src="img/site/7day.png" title="free return of goods within 7 days ">
+                                <img src="img/site/promise.png" title="promise service">
                             </div>
                         </div>
 
@@ -269,7 +269,7 @@
 
                     </td>
                     <td>
-                        <a class="deleteOrderItem" oiid="${oi.id}"  href="#nowhere">删除</a>
+                        <a class="deleteOrderItem" oiid="${oi.id}"  href="#nowhere">delete</a>
                     </td>
                 </tr>
             </c:forEach>
@@ -280,15 +280,15 @@
 
     <div class="cartFoot">
         <img selectit="false" class="selectAllItem" src="img/site/cartNotSelected.png">
-        <span>全选</span>
+        <span>check all</span>
         <!-- 		<a href="#">删除</a> -->
 
         <div class="pull-right">
-            <span>已选商品 <span class="cartSumNumber" >0</span> 件</span>
+            <span>Selected goods <span class="cartSumNumber" >0</span> piece</span>
 
-            <span>合计 (不含运费): </span>
+            <span>total (not included delivary): </span>
             <span class="cartSumPrice" >￥0.00</span>
-            <button class="createOrderButton" disabled="disabled" >结  算</button>
+            <button class="createOrderButton" disabled="disabled" >Settlement</button>
         </div>
 
     </div>

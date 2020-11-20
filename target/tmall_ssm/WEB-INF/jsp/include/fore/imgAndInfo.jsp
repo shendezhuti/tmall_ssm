@@ -160,16 +160,16 @@
 
         <div class="productPrice">
             <div class="juhuasuan">
-                <span class="juhuasuanBig" >聚划算</span>
-                <span>此商品即将参加聚划算，<span class="juhuasuanTime">1天19小时</span>后开始，</span>
+                <span class="juhuasuanBig" >Sale</span>
+                <span>This product is on sale，<span class="juhuasuanTime">after 1 day and 19 hour</span> start </span>
             </div>
             <div class="productPriceDiv">
-                <div class="gouwujuanDiv"><img height="16px" src="img/site/gouwujuan.png">
-                    <span> 全天猫实物商品通用</span>
+                <!--<di>v class="gouwujuanDiv"><img height="16px" src="img/site/gouwujuan.png">
+                    <span> for all tmall goods</span
 
-                </div>
+                </div> -->
                 <div class="originalDiv">
-                    <span class="originalPriceDesc">价格</span>
+                    <span class="originalPriceDesc">price</span>
                     <span class="originalPriceYuan">¥</span>
                     <span class="originalPrice">
 
@@ -177,7 +177,7 @@
                     </span>
                 </div>
                 <div class="promotionDiv">
-                    <span class="promotionPriceDesc">促销价 </span>
+                    <span class="promotionPriceDesc">sale price </span>
                     <span class="promotionPriceYuan">¥</span>
                     <span class="promotionPrice">
                         <fmt:formatNumber type="number" value="${p.promotePrice}" minFractionDigits="2"/>
@@ -186,11 +186,11 @@
             </div>
         </div>
         <div class="productSaleAndReviewNumber">
-            <div>销量 <span class="redColor boldWord"> ${p.saleCount }</span></div>
-            <div>累计评价 <span class="redColor boldWord"> ${p.reviewCount}</span></div>
+            <div> sales<span class="redColor boldWord"> ${p.saleCount }</span></div>
+            <div> Cumulative evaluation <span class="redColor boldWord"> ${p.reviewCount}</span></div>
         </div>
         <div class="productNumber">
-            <span>数量</span>
+            <span> number </span>
             <span>
                 <span class="productNumberSettingSpan">
                 <input class="productNumberSetting" type="text" value="1">
@@ -211,22 +211,22 @@
 
                 </span>
 
-            件</span>
-            <span>库存${p.stock}件</span>
+            piece </span>
+            <span> stock ${p.stock} piece </span>
         </div>
         <div class="serviceCommitment">
-            <span class="serviceCommitmentDesc">服务承诺</span>
+            <span class="serviceCommitmentDesc">Pledge</span>
             <span class="serviceCommitmentLink">
-                <a href="#nowhere">正品保证</a>
-                <a href="#nowhere">极速退款</a>
-                <a href="#nowhere">赠运费险</a>
-                <a href="#nowhere">七天无理由退换</a>
+                <a href="#nowhere">Genuine guarantee |</a>
+                <a href="#nowhere">Fast refund |</a>
+                <a href="#nowhere">Free shipping insurance |</a>
+                <a href="#nowhere">Seven days no reason to return </a>
             </span>
         </div>
 
         <div class="buyDiv">
-            <a class="buyLink" href="forebuyone?pid=${p.id}"><button class="buyButton">立即购买</button></a>
-            <a href="#nowhere" class="addCartLink"><button class="addCartButton"><span class="glyphicon glyphicon-shopping-cart"></span>加入购物车</button></a>
+            <a class="buyLink" href="forebuyone?pid=${p.id}"><button class="buyButton">Buy Now</button></a>
+            <a href="#nowhere" class="addCartLink"><button class="addCartButton"><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button></a>
         </div>
     </div>
 

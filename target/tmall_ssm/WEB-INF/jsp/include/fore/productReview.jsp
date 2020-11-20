@@ -3,8 +3,8 @@
 
 <div class="productReviewDiv" >
     <div class="productReviewTopPart">
-        <a  href="#nowhere" class="productReviewTopPartSelectedLink">商品详情</a>
-        <a  href="#nowhere" class="selected">累计评价 <span class="productReviewTopReviewLinkNumber">${p.reviewCount}</span> </a>
+        <a  href="#nowhere" class="productReviewTopPartSelectedLink">Product detail</a>
+        <a  href="#nowhere" class="selected">Cumulative evaluation <span class="productReviewTopReviewLinkNumber">${p.reviewCount}</span> </a>
     </div>
 
     <div class="productReviewContentPart">
@@ -19,7 +19,7 @@
                 </div>
                 <div class="productReviewItemUserInfo">
 
-                        ${r.user.anonymousName}<span class="userInfoGrayPart">（匿名）</span>
+                        ${r.user.anonymousName}<span class="userInfoGrayPart">（anonymity）</span>
                 </div>
 
                 <div style="clear:both"></div>

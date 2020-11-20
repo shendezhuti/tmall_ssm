@@ -62,12 +62,12 @@
             });
 
             $("div#footer a[href$=#nowhere]").click(function(){
-                alert("模仿天猫的连接，并没有跳转到实际的页面");
+                alert("we have not implemented the function");
             });
 
 
             $("a.wangwanglink").click(function(){
-                alert("模仿旺旺的图标，并不会打开旺旺");
+                alert("we have not implemented the function");
             });
             $("a.notImplementLink").click(function(){
                 alert("we have not implemented the function~");

@@ -68,22 +68,22 @@
 
 <div class="boughtDiv">
     <div class="orderType">
-        <div class="selectedOrderType"><a orderStatus="all" href="#nowhere">所有订单</a></div>
-        <div><a  orderStatus="waitPay" href="#nowhere">待付款</a></div>
-        <div><a  orderStatus="waitDelivery" href="#nowhere">待发货</a></div>
-        <div><a  orderStatus="waitConfirm" href="#nowhere">待收货</a></div>
-        <div><a  orderStatus="waitReview" href="#nowhere" class="noRightborder">待评价</a></div>
+        <div class="selectedOrderType"><a orderStatus="all" href="#nowhere">all order</a></div>
+        <div><a  orderStatus="waitPay" href="#nowhere">Pending payment</a></div>
+        <div><a  orderStatus="waitDelivery" href="#nowhere">To be delivered</a></div>
+        <div><a  orderStatus="waitConfirm" href="#nowhere">To be received</a></div>
+        <div><a  orderStatus="waitReview" href="#nowhere" class="noRightborder">To be comment</a></div>
         <div class="orderTypeLastOne"><a class="noRightborder"> </a></div>
     </div>
     <div style="clear:both"></div>
     <div class="orderListTitle">
         <table class="orderListTitleTable">
             <tr>
-                <td>宝贝</td>
-                <td width="100px">单价</td>
-                <td width="100px">数量</td>
-                <td width="120px">实付款</td>
-                <td width="100px">交易操作</td>
+                <td>goods</td>
+                <td width="100px">unit price</td>
+                <td width="100px">number</td>
+                <td width="120px">real payment</td>
+                <td width="100px">operation</td>
             </tr>
         </table>
 
@@ -95,13 +95,13 @@
                 <tr class="orderListItemFirstTR">
                     <td colspan="2">
                         <b><fmt:formatDate value="${o.createDate}" pattern="yyyy-MM-dd HH:mm:ss"/></b>
-                        <span>订单号: ${o.orderCode}
+                        <span>order number: ${o.orderCode}
 					</span>
                     </td>
-                    <td  colspan="2"><img width="13px" src="img/site/orderItemTmall.png">天猫商场</td>
+                    <td  colspan="2"><img width="13px" src="img/site/orderItemTmall.png">tmall</td>
                     <td colspan="1">
                         <a class="wangwanglink" href="#nowhere">
-                            <div class="orderItemWangWangGif"></div>
+                          <!--  <div class="orderItemWangWangGif"></div> -->
                         </a>
 
                     </td>
@@ -119,9 +119,9 @@
                             <div class="orderListItemProductLinkOutDiv">
                                 <a href="foreproduct?pid=${oi.product.id}">${oi.product.name}</a>
                                 <div class="orderListItemProductLinkInnerDiv">
-                                    <img src="img/site/creditcard.png" title="支持信用卡支付">
-                                    <img src="img/site/7day.png" title="消费者保障服务,承诺7天退货">
-                                    <img src="img/site/promise.png" title="消费者保障服务,承诺如实描述">
+                                    <img src="img/site/creditcard.png" title="support creidt card">
+                                    <img src="img/site/7day.png" title="free return of goods within 7 days ">
+                                    <img src="img/site/promise.png" title="promise service">
                                 </div>
                             </div>
                         </td>
@@ -138,29 +138,29 @@
                             </td>
                             <td valign="top" rowspan="${fn:length(o.orderItems)}" width="120px" class="orderListItemProductRealPriceTD orderItemOrderInfoPartTD">
                                 <div class="orderListItemProductRealPrice">￥<fmt:formatNumber  minFractionDigits="2"  maxFractionDigits="2" type="number" value="${o.total}"/></div>
-                                <div class="orderListItemPriceWithTransport">(含运费：￥0.00)</div>
+                                <div class="orderListItemPriceWithTransport">(including delivery：￥0.00)</div>
                             </td>
                             <td valign="top" rowspan="${fn:length(o.orderItems)}" class="orderListItemButtonTD orderItemOrderInfoPartTD" width="100px">
                                 <c:if test="${o.status=='waitConfirm' }">
                                     <a href="foreconfirmPay?oid=${o.id}">
-                                        <button class="orderListItemConfirm">确认收货</button>
+                                        <button class="orderListItemConfirm">confirm receipt</button>
                                     </a>
                                 </c:if>
                                 <c:if test="${o.status=='waitPay' }">
                                     <a href="alipay.jsp?oid=${o.id}&total=${o.total}">
-                                        <button class="orderListItemConfirm">付款</button>
+                                        <button class="orderListItemConfirm">pay</button>
                                     </a>
                                 </c:if>
 
                                 <c:if test="${o.status=='waitDelivery' }">
-                                    <span>待发货</span>
+                                    <span>To be delivered</span>
                                     <%-- 									<button class="btn btn-info btn-sm ask2delivery" link="admin_order_delivery?id=${o.id}">催卖家发货</button> --%>
 
                                 </c:if>
 
                                 <c:if test="${o.status=='waitReview' }">
                                     <a href="forereview?oid=${o.id}">
-                                        <button  class="orderListItemReview">评价</button>
+                                        <button  class="orderListItemReview">comment</button>
                                     </a>
                                 </c:if>
                             </td>
