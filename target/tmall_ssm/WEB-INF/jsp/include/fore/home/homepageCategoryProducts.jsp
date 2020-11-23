@@ -39,8 +39,8 @@
 			</div>
 		</c:if>
 	</c:forEach>
-	
-	
-	<img id="endpng" class="endpng" src="img/site/end.png">
 
+
+	<a href="/tmall_ssm"><img id="endpng" class="endpng" src="img/site/end.png" >
+	</a>
 </div>

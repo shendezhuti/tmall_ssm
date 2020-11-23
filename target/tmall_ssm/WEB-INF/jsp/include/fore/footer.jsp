@@ -74,39 +74,39 @@
 				<a href="#nowhere" > XXXX	</a>
 			</div>
 			<div class="white_link" >
-				<a href="#nowhere"  style="padding-left:0px" > 阿里巴巴集团</a><span class="slash">|</span>
-				<a href="#nowhere" > 淘宝网</a><span class="slash">|</span>
-				<a href="#nowhere" >天猫 </a><span class="slash">|</span>
-				<a href="#nowhere" >  聚划算</a><span class="slash">|</span>
-				<a href="#nowhere" >全球速卖通</a><span class="slash">|</span>
-				<a href="#nowhere" >阿里巴巴国际交易市场</a><span class="slash">|</span>
+				<a href="#nowhere"  style="padding-left:0px" > Alibaba Group</a><span class="slash">|</span>
+				<a href="#nowhere" >Taobao</a><span class="slash">|</span>
+				<a href="#nowhere" >Tmall </a><span class="slash">|</span>
+				<a href="#nowhere" >XXXX</a><span class="slash">|</span>
+				<a href="#nowhere" >XXXX</a><span class="slash">|</span>
+				<a href="#nowhere" >XXXX</a><span class="slash">|</span>
 				<a href="#nowhere" >1688</a><span class="slash">|</span>
-				<a href="#nowhere" >阿里妈妈</a><span class="slash">|</span>
-				<a href="#nowhere" >  阿里旅行·去啊	</a><span class="slash">|</span>
-				<a href="#nowhere" >  阿里云计算	</a><span class="slash">|</span>
-				<a href="#nowhere" >  阿里通信 	</a><span class="slash">|</span>
+				<a href="#nowhere" >XXXX</a><span class="slash">|</span>
+				<a href="#nowhere" >  XXXX	</a><span class="slash">|</span>
+				<a href="#nowhere" > XXXX	</a><span class="slash">|</span>
+				<a href="#nowhere" >  XXXX 	</a><span class="slash">|</span>
 				<a href="#nowhere" >  YunOS	</a><span class="slash">|</span>
-				<a href="#nowhere" >  阿里旅行·去啊	</a><span class="slash">|</span>
-				<a href="#nowhere" >   万网	</a><span class="slash">|</span>
-				<a href="#nowhere" >  高德	</a><span class="slash">|</span>
-				<a href="#nowhere" > 优视 	</a><span class="slash">|</span>
-				<a href="#nowhere" >  友盟	</a><span class="slash">|</span>
-				<a href="#nowhere" >  虾米	</a><span class="slash">|</span>
-				<a href="#nowhere" >  天天动听	</a><span class="slash">|</span>
-				<a href="#nowhere" >  来往	</a><span class="slash">|</span>
-				<a href="#nowhere" >  钉钉	</a><span class="slash">|</span>
-				<a href="#nowhere" >  支付宝 		</a>
+				<a href="#nowhere" >  XXXX	</a><span class="slash">|</span>
+				<a href="#nowhere" >   XXXX	</a><span class="slash">|</span>
+				<a href="#nowhere" >  XXXX	</a><span class="slash">|</span>
+				<a href="#nowhere" > XXXX 	</a><span class="slash">|</span>
+				<a href="#nowhere" >  XXXX	</a><span class="slash">|</span>
+				<a href="#nowhere" >  XXXX	</a><span class="slash">|</span>
+				<a href="#nowhere" >  XXXX	</a><span class="slash">|</span>
+				<a href="#nowhere" >  XXXX	</a><span class="slash">|</span>
+				<a href="#nowhere" >  XXXX	</a><span class="slash">|</span>
+				<a href="#nowhere" >  XXXX		</a>
 			</div>
 
 			<div class="license">
-				<span>增值电信业务经营许可证： 浙B2-20110446</span>
-				<span>网络文化经营许可证：浙网文[2015]0295-065号</span>
-				<span>互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号 </span>
-				<span>互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005</span>
-				<div class="copyRightYear">&copy; 2003-2016 TMALL.COM 版权所有</div>
+				<span>XXXX B2-20110446</span>
+				<span>XXXX[2020]0295-065</span>
+				<span> XXXX</span>
+				<span>XXXX</span>
+				<div class="copyRightYear">&copy; XXXX</div>
 				<div>
-					<img src="img/site/copyRight1.jpg">
-					<img src="img/site/copyRight2.jpg">
+				<!--	<img src="img/site/copyRight1.jpg">
+					<img src="img/site/copyRight2.jpg"> -->
 				</div>
 			</div>
 		</div>
