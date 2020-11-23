@@ -187,7 +187,7 @@
         </div>
         <div class="productSaleAndReviewNumber">
             <div> sales<span class="redColor boldWord"> ${p.saleCount }</span></div>
-            <div> Cumulative evaluation <span class="redColor boldWord"> ${p.reviewCount}</span></div>
+            <div> Comment <span class="redColor boldWord"> ${p.reviewCount}</span></div>
         </div>
         <div class="productNumber">
             <span> number </span>
