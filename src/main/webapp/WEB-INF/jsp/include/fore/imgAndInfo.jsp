@@ -49,7 +49,7 @@
                             {"pid":pid,"num":num},
                             function(result){
                                 if("success"==result){
-                                    $(".addCartButton").html("已加入购物车");
+                                    $(".addCartButton").html("add to cart already");
                                     $(".addCartButton").attr("disabled","disabled");
                                     $(".addCartButton").css("background-color","lightgray")
                                     $(".addCartButton").css("border-color","lightgray")
@@ -187,7 +187,7 @@
         </div>
         <div class="productSaleAndReviewNumber">
             <div> sales<span class="redColor boldWord"> ${p.saleCount }</span></div>
-            <div> Cumulative evaluation <span class="redColor boldWord"> ${p.reviewCount}</span></div>
+            <div> Comment <span class="redColor boldWord"> ${p.reviewCount}</span></div>
         </div>
         <div class="productNumber">
             <span> number </span>

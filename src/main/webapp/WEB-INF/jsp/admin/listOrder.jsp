@@ -15,11 +15,11 @@
 
 </script>
 
-<title>订单管理</title>
+<title>Order Managment</title>
 
 
 <div class="workingArea">
-	<h1 class="label label-info" >订单管理</h1>
+	<h1 class="label label-info" >Order Managment</h1>
 	<br>
 	<br>
 
@@ -28,15 +28,15 @@
 			<thead>
 			<tr class="success">
 				<th>ID</th>
-				<th>状态</th>
-				<th>金额</th>
-				<th width="100px">商品数量</th>
-				<th width="100px">买家名称</th>
-				<th>创建时间</th>
-				<th>支付时间</th>
-				<th>发货时间</th>
-				<th>确认收货时间</th>
-				<th width="120px">操作</th>
+				<th>Status</th>
+				<th>amount of money</th>
+				<th width="100px">number of good</th>
+				<th width="100px">buyer name</th>
+				<th>create time</th>
+				<th>payment time</th>
+				<th>delivery time</th>
+				<th>confirm receiving time</th>
+				<th width="120px">operation</th>
 			</tr>
 			</thead>
 			<tbody>
@@ -54,11 +54,11 @@
 					<td><fmt:formatDate value="${o.confirmDate}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
 
 					<td>
-						<button oid=${o.id} class="orderPageCheckOrderItems btn btn-primary btn-xs">查看详情</button>
+						<button oid=${o.id} class="orderPageCheckOrderItems btn btn-primary btn-xs">see detail</button>
 
 						<c:if test="${o.status=='waitDelivery'}">
 							<a href="admin_order_delivery?id=${o.id}">
-								<button class="btn btn-primary btn-xs">发货</button>
+								<button class="btn btn-primary btn-xs">send the good</button>
 							</a>
 						</c:if>
 					</td>
@@ -85,7 +85,7 @@
 										</td>
 										<td align="right">
 
-											<span class="text-muted">单价：￥${oi.product.promotePrice}</span>
+											<span class="text-muted">unit price：￥${oi.product.promotePrice}</span>
 										</td>
 
 									</tr>

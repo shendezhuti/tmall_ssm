@@ -4,7 +4,7 @@
 <div class="productReviewDiv" >
     <div class="productReviewTopPart">
         <a  href="#nowhere" class="productReviewTopPartSelectedLink">Product detail</a>
-        <a  href="#nowhere" class="selected">Cumulative evaluation <span class="productReviewTopReviewLinkNumber">${p.reviewCount}</span> </a>
+        <a  href="#nowhere" class="selected">Comment <span class="productReviewTopReviewLinkNumber">${p.reviewCount}</span> </a>
     </div>
 
     <div class="productReviewContentPart">

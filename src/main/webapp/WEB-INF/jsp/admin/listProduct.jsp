@@ -23,14 +23,14 @@
     });
 </script>
 
-<title>产品管理</title>
+<title>Product Managment</title>
 
 <div class="workingArea">
 
 	<ol class="breadcrumb">
-		<li><a href="admin_category_list">所有分类</a></li>
+		<li><a href="admin_category_list">All Category</a></li>
 		<li><a href="admin_product_list?cid=${c.id}">${c.name}</a></li>
-		<li class="active">产品管理</li>
+		<li class="active">Product Managment</li>
 	</ol>
 
 	<div class="listDataTableDiv">
@@ -39,16 +39,16 @@
 			<thead>
 			<tr class="success">
 				<th>ID</th>
-				<th>图片</th>
-				<th>产品名称</th>
-				<th>产品小标题</th>
-				<th width="53px">原价格</th>
-				<th width="80px">优惠价格</th>
-				<th width="80px">库存数量</th>
-				<th width="80px">图片管理</th>
-				<th width="80px">设置属性</th>
-				<th width="42px">编辑</th>
-				<th width="42px">删除</th>
+				<th>Image</th>
+				<th>Product Name</th>
+				<th>Product Subtitle</th>
+				<th width="53px">Original price</th>
+				<th width="80px">Sale price</th>
+				<th width="80px">Stock</th>
+				<th width="80px">Image managment</th>
+				<th width="80px">Set Property</th>
+				<th width="42px">Edit</th>
+				<th width="42px">Delete</th>
 			</tr>
 			</thead>
 			<tbody>
@@ -89,32 +89,32 @@
 	</div>
 
 	<div class="panel panel-warning addDiv">
-		<div class="panel-heading">新增产品</div>
+		<div class="panel-heading">Add Product</div>
 		<div class="panel-body">
 			<form method="post" id="addForm" action="admin_product_add">
 				<table class="addTable">
 					<tr>
-						<td>产品名称</td>
+						<td>Product Name</td>
 						<td><input id="name" name="name" type="text"
 								   class="form-control"></td>
 					</tr>
 					<tr>
-						<td>产品小标题</td>
+						<td>subTitle</td>
 						<td><input id="subTitle" name="subTitle" type="text"
 								   class="form-control"></td>
 					</tr>
 					<tr>
-						<td>原价格</td>
+						<td>originalPrice</td>
 						<td><input id="originalPrice" value="99.98" name="originalPrice" type="text"
 								   class="form-control"></td>
 					</tr>
 					<tr>
-						<td>优惠价格</td>
+						<td>promotePrice</td>
 						<td><input id="promotePrice"  value="19.98" name="promotePrice" type="text"
 								   class="form-control"></td>
 					</tr>
 					<tr>
-						<td>库存</td>
+						<td>stock</td>
 						<td><input id="stock"  value="99" name="stock" type="text"
 								   class="form-control"></td>
 					</tr>

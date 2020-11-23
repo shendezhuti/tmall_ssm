@@ -16,15 +16,15 @@
     });
 </script>
 
-<title>属性管理</title>
+<title>Property Management</title>
 
 
 <div class="workingArea">
 
 	<ol class="breadcrumb">
-		<li><a href="admin_category_list">所有分类</a></li>
+		<li><a href="admin_category_list">All Category</a></li>
 		<li><a href="admin_property_list?cid=${c.id}">${c.name}</a></li>
-		<li class="active">属性管理</li>
+		<li class="active">Management</li>
 	</ol>
 
 
@@ -35,9 +35,9 @@
 			<thead>
 			<tr class="success">
 				<th>ID</th>
-				<th>属性名称</th>
-				<th>编辑</th>
-				<th>删除</th>
+				<th>Property name</th>
+				<th>Edit</th>
+				<th>Delete</th>
 			</tr>
 			</thead>
 			<tbody>
@@ -63,19 +63,19 @@
 	</div>
 
 	<div class="panel panel-warning addDiv">
-		<div class="panel-heading">新增属性</div>
+		<div class="panel-heading">Add property</div>
 		<div class="panel-body">
 			<form method="post" id="addForm" action="admin_property_add">
 				<table class="addTable">
 					<tr>
-						<td>属性名称</td>
+						<td>property name</td>
 						<td><input id="name" name="name" type="text"
 								   class="form-control"></td>
 					</tr>
 					<tr class="submitTR">
 						<td colspan="2" align="center">
 							<input type="hidden" name="cid" value="${c.id}">
-							<button type="submit" class="btn btn-success">提 交</button>
+							<button type="submit" class="btn btn-success">submit</button>
 						</td>
 					</tr>
 				</table>

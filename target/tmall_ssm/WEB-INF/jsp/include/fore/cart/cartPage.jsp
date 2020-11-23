@@ -288,7 +288,7 @@
 
             <span>total (not included delivary): </span>
             <span class="cartSumPrice" >￥0.00</span>
-            <button class="createOrderButton" disabled="disabled" >Settlement</button>
+            <button class="createOrderButton" disabled="disabled" >Check Out</button>
         </div>
 
     </div>

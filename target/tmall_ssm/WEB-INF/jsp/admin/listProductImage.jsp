@@ -23,15 +23,15 @@
 
 </script>
 
-<title>产品图片管理</title>
+<title>Product Image Management</title>
 
 
 <div class="workingArea">
 	<ol class="breadcrumb">
-		<li><a href="admin_category_list">所有分类</a></li>
+		<li><a href="admin_category_list">All Category</a></li>
 		<li><a href="admin_product_list?cid=${p.category.id}">${p.category.name}</a></li>
 		<li class="active">${p.name}</li>
-		<li class="active">产品图片管理</li>
+		<li class="active">Product Image Management</li>
 	</ol>
 
 	<table class="addPictureTable" align="center">
@@ -39,12 +39,12 @@
 			<td class="addPictureTableTD">
 				<div>
 					<div class="panel panel-warning addPictureDiv">
-						<div class="panel-heading">新增产品<b class="text-primary"> 单个 </b>图片</div>
+						<div class="panel-heading">Add Product<b class="text-primary"> unit </b>Image</div>
 						<div class="panel-body">
 							<form method="post" class="addFormSingle" action="admin_productImage_add" enctype="multipart/form-data">
 								<table class="addTable">
 									<tr>
-										<td>请选择本地图片 尺寸400X400 为佳</td>
+										<td>Plsase choose a local file 400X400 </td>
 									</tr>
 									<tr>
 										<td>
@@ -55,7 +55,7 @@
 										<td align="center">
 											<input type="hidden" name="type" value="type_single" />
 											<input type="hidden" name="pid" value="${p.id}" />
-											<button type="submit" class="btn btn-success">提 交</button>
+											<button type="submit" class="btn btn-success">submit </button>
 										</td>
 									</tr>
 								</table>
@@ -66,8 +66,8 @@
 						<thead>
 						<tr class="success">
 							<th>ID</th>
-							<th>产品单个图片缩略图</th>
-							<th>删除</th>
+							<th>single Image condense picture</th>
+							<th>delete</th>
 						</tr>
 						</thead>
 						<tbody>
@@ -92,12 +92,12 @@
 				<div>
 
 					<div class="panel panel-warning addPictureDiv">
-						<div class="panel-heading">新增产品<b class="text-primary"> 详情 </b>图片</div>
+						<div class="panel-heading">Add Product<b class="text-primary"> detail </b>Image</div>
 						<div class="panel-body">
 							<form method="post" class="addFormDetail" action="admin_productImage_add" enctype="multipart/form-data">
 								<table class="addTable">
 									<tr>
-										<td>请选择本地图片 宽度790  为佳</td>
+										<td>Plsase choose a local file width 790</td>
 									</tr>
 									<tr>
 										<td>
@@ -108,7 +108,7 @@
 										<td align="center">
 											<input type="hidden" name="type" value="type_detail" />
 											<input type="hidden" name="pid" value="${p.id}" />
-											<button type="submit" class="btn btn-success">提 交</button>
+											<button type="submit" class="btn btn-success">submit</button>
 										</td>
 									</tr>
 								</table>
@@ -119,8 +119,8 @@
 						<thead>
 						<tr class="success">
 							<th>ID</th>
-							<th>产品详情图片缩略图</th>
-							<th>删除</th>
+							<th>Product detail condense Image</th>
+							<th>delete</th>
 						</tr>
 						</thead>
 						<tbody>

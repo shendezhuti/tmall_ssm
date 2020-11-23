@@ -5,7 +5,7 @@
 
         <div class="buyFlow">
             <img class="pull-left" src="img/site/simpleLogo1.png">
-            <img class="pull-right" src="img/site/buyflow.png">
+
             <div style="clear:both"></div>
         </div>
         <div class="address">
@@ -107,7 +107,7 @@
                 <div class="pull-left">
                     <span class="leaveMessageText">give the seller words:</span>
                     <span>
-					<img class="leaveMessageImg" src="img/site/leaveMessage.png">
+
 				</span>
                     <span class="leaveMessageTextareaSpan">
 					<textarea name="userMessage" class="leaveMessageTextarea"></textarea>

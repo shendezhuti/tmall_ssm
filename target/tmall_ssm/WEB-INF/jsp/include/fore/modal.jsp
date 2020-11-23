@@ -12,12 +12,12 @@
 					</div>
 				</div>
 
-				<div class="login_acount_text">账户登录</div>
+				<div class="login_acount_text">Login</div>
 				<div class="loginInput " >
 							<span class="loginInputIcon ">
 								<span class=" glyphicon glyphicon-user"></span>
 							</span>
-					<input id="name" name="name" placeholder="手机/会员名/邮箱" type="text">
+					<input id="name" name="name" placeholder="phone number / username / email" type="text">
 				</div>
 
 				<div class="loginInput " >
@@ -26,13 +26,13 @@
 							</span>
 					<input id="password" name="password"  type="password" placeholder="密码" type="text">
 				</div>
-				<span class="text-danger">不要输入真实的天猫账号密码</span><br><br>
+				<span class="text-danger">do not type you real account</span><br><br>
 				<div>
-					<a href="#nowhere">忘记登录密码</a>
-					<a href="registerPage" class="pull-right">免费注册</a>
+					<a href="#nowhere">for the password</a>
+					<a href="registerPage" class="pull-right">register for free</a>
 				</div>
 				<div style="margin-top:20px">
-					<button class="btn btn-block redButton loginSubmitButton" type="submit">登录</button>
+					<button class="btn btn-block redButton loginSubmitButton" type="submit">login</button>
 				</div>
 			</div>
 		</div>
@@ -44,11 +44,11 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<button data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-				<h4 class="modal-title">确认删除？</h4>
+				<h4 class="modal-title">sure to delete?</h4>
 			</div>
 			<div class="modal-footer">
-				<button data-dismiss="modal" class="btn btn-default" type="button">关闭</button>
-				<button class="btn btn-primary deleteConfirmButton" id="submit" type="button">确认</button>
+				<button data-dismiss="modal" class="btn btn-default" type="button">close</button>
+				<button class="btn btn-primary deleteConfirmButton" id="submit" type="button">confirm</button>
 			</div>
 		</div>
 	</div>

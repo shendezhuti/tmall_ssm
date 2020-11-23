@@ -59,7 +59,7 @@ $(function(){
 		var deleteLink = $(this).attr("deleteLink");
 		console.log(deleteLink);
 		if("true"==deleteLink){
-			var confirmDelete = confirm("确认要删除");
+			var confirmDelete = confirm("confirm to delete");
 			if(confirmDelete)
 				return true;
 			return false;

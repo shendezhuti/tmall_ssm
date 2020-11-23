@@ -8,11 +8,11 @@
 <script>
 </script>
 
-<title>用户管理</title>
+<title>User Management</title>
 
 
 <div class="workingArea">
-	<h1 class="label label-info" >用户管理</h1>
+	<h1 class="label label-info" >User Management</h1>
 
 	<br>
 	<br>
@@ -22,7 +22,7 @@
 			<thead>
 			<tr class="success">
 				<th>ID</th>
-				<th>用户名称</th>
+				<th>User Name</th>
 			</tr>
 			</thead>
 			<tbody>

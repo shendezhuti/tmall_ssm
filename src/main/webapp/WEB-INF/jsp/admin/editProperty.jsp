@@ -6,22 +6,22 @@
 <%@include file="../include/admin/adminNavigator.jsp"%>
 
 
-<title>编辑属性</title>
+<title>Edit Property</title>
 
 <div class="workingArea">
 	<ol class="breadcrumb">
-		<li><a href="admin_category_list">所有分类</a></li>
+		<li><a href="admin_category_list">All Category</a></li>
 		<li><a href="admin_property_list?cid=${p.category.id}">${p.category.name}</a></li>
-		<li class="active">编辑属性</li>
+		<li class="active">Edit Property</li>
 	</ol>
 
 	<div class="panel panel-warning editDiv">
-		<div class="panel-heading">编辑属性</div>
+		<div class="panel-heading">Edit Property</div>
 		<div class="panel-body">
 			<form method="post" id="editForm" action="admin_property_update">
 				<table class="editTable">
 					<tr>
-						<td>属性名称</td>
+						<td>Property Name</td>
 						<td><input id="name" name="name" value="${p.name}"
 								   type="text" class="form-control"></td>
 					</tr>
@@ -29,7 +29,7 @@
 						<td colspan="2" align="center">
 							<input type="hidden" name="id" value="${p.id}">
 							<input type="hidden" name="cid" value="${p.category.id}">
-							<button type="submit" class="btn btn-success">提 交</button></td>
+							<button type="submit" class="btn btn-success">submit</button></td>
 					</tr>
 				</table>
 			</form>

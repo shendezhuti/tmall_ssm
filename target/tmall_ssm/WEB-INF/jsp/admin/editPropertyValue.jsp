@@ -6,7 +6,7 @@
 <%@include file="../include/admin/adminNavigator.jsp"%>
 
 
-<title>编辑产品属性值</title>
+<title>Edit Property Value</title>
 
 <script>
     $(function() {
@@ -32,10 +32,10 @@
 
 <div class="workingArea">
 	<ol class="breadcrumb">
-		<li><a href="admin_category_list">所有分类</a></li>
+		<li><a href="admin_category_list">All Category</a></li>
 		<li><a href="admin_product_list?cid=${p.category.id}">${p.category.name}</a></li>
 		<li class="active">${p.name}</li>
-		<li class="active">编辑产品属性</li>
+		<li class="active">Edit Property Value</li>
 	</ol>
 
 	<div class="editPVDiv">
