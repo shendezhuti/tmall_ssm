@@ -6,6 +6,6 @@
 <div class="orderFinishDiv">
     <div class="orderFinishTextDiv">
         <img src="img/site/orderFinish.png">
-        <span>交易已经成功，卖家将收到您的货款。</span>
+        <span>The transaction has been successful and the seller will receive your payment.</span>
     </div>
 </div>

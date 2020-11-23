@@ -162,25 +162,25 @@ public class Order {
         String desc ="未知";
         switch(status){
             case OrderService.waitPay:
-                desc="待付款";
+                desc="WaitPay";
                 break;
             case OrderService.waitDelivery:
-                desc="待发货";
+                desc="WaitDelivery";
                 break;
             case OrderService.waitConfirm:
-                desc="待收货";
+                desc="WaitConfirm";
                 break;
             case OrderService.waitReview:
-                desc="等评价";
+                desc="WaitReview";
                 break;
             case OrderService.finish:
-                desc="完成";
+                desc="Finish";
                 break;
             case OrderService.delete:
-                desc="刪除";
+                desc="Delete";
                 break;
             default:
-                desc="未知";
+                desc="Unknown";
         }
         return desc;
     }

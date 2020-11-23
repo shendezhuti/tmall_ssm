@@ -10,7 +10,7 @@
     </div>
 
     <div>
-        <span class="confirmMoneyText">pay</span>
+        <span class="confirmMoneyText" style="font-size:20px">This is pay page</span>
         <span class="confirmMoney">
 		￥<fmt:formatNumber type="number" value="${param.total}" minFractionDigits="2"/></span>
 
