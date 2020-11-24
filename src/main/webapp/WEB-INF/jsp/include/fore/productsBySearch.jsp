@@ -13,18 +13,18 @@
                 ${fn:substring(p.name, 0, 50)}
         </a>
 
-        <a class="tmallLink" href="foreproduct?pid=${p.id}">天猫专卖</a>
+        <a class="tmallLink" href="foreproduct?pid=${p.id}">Tmall</a>
 
         <div class="productInfo">
-            <span class="monthDeal ">月成交 <span class="productDealNumber">${p.saleCount}笔</span></span>
-            <span class="productReview">评价<span class="productReviewNumber">${p.reviewCount}</span></span>
+            <span class="monthDeal ">Monthly transaction <span class="productDealNumber">${p.saleCount}piece</span></span>
+            <span class="productReview">Comment<span class="productReviewNumber">${p.reviewCount}</span></span>
             <span class="wangwang"><img src="img/site/wangwang.png"></span>
         </div>
 
     </div>
     </c:forEach>
     <c:if test="${empty ps}">
-    <div class="noMatch">没有满足条件的产品<div>
+    <div class="noMatch">No products that meet the conditions<div>
         </c:if>
 
         <div style="clear:both"></div>

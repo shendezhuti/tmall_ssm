@@ -25,7 +25,7 @@
                     <a  class="tmallLink" href="foreproduct?pid=${p.id}">Tmall </a>
 
                     <div class="show1 productInfo">
-                        <span class="monthDeal ">Monthly transaction <span class="productDealNumber">${p.saleCount}笔</span></span>
+                        <span class="monthDeal ">Monthly transaction <span class="productDealNumber">${p.saleCount}piece</span></span>
                         <span class="productReview">Comment<span class="productReviewNumber">${p.reviewCount}</span></span>
                         <span class="wangwang">
 					<a class="wangwanglink" href="#nowhere">
