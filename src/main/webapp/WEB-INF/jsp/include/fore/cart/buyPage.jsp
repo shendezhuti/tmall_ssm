@@ -9,7 +9,7 @@
             <div style="clear:both"></div>
         </div>
         <div class="address">
-            <div class="addressTip">please enter your deliver address</div>
+            <div class="addressTip">Please enter your deliver address</div>
             <div>
 
                 <table class="addressTable">
@@ -29,6 +29,16 @@
                     <tr>
                         <td>phone number <span class="redStar">*</span></td>
                         <td><input name="mobile"  placeholder="please enter the phone number" type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>card number <span class="redStar">*</span></td>
+                        <td><input name="cardnumber"  placeholder="please enter the card number" type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>expiration date<span class="redStar">*</span></td>
+                        <td><input name="expiration"  placeholder="please enter the expiration date" type="text"></td>
                     </tr>
                 </table>
 

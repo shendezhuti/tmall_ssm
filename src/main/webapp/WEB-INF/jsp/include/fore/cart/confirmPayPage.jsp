@@ -5,7 +5,7 @@
 
 <div class="confirmPayPageDiv">
     <div class="confirmPayImageDiv">
-        <img src="img/site/comformPayFlow.png">
+        <!-- <img src="img/site/comformPayFlow.png"> -->
         <div  class="confirmPayTime1">
             <fmt:formatDate value="${o.createDate}" pattern="yyyy-MM-dd HH:mm:ss"/>
         </div>
@@ -45,7 +45,7 @@
         </table>
 
         <div class="confirmPayOrderItemText pull-right">
-            实付款： <span class="confirmPayOrderItemSumPrice">￥<fmt:formatNumber type="number" value="${o.total}" minFractionDigits="2"/></span>
+            real payment： <span class="confirmPayOrderItemSumPrice">￥<fmt:formatNumber type="number" value="${o.total}" minFractionDigits="2"/></span>
         </div>
 
     </div>

@@ -12,23 +12,23 @@
             </div>
             <table class="reviewProductInfoTable">
                 <tr>
-                    <td width="75px">价格:</td>
-                    <td><span class="reviewProductInfoTablePrice">￥<fmt:formatNumber type="number" value="${p.originalPrice}" minFractionDigits="2"/></span> 元 </td>
+                    <td width="75px">price:</td>
+                    <td><span class="reviewProductInfoTablePrice">￥<fmt:formatNumber type="number" value="${p.originalPrice}" minFractionDigits="2"/></span>  </td>
                 </tr>
                 <tr>
-                    <td>配送</td>
-                    <td>快递:  0.00</td>
+                    <td>delivery</td>
+                    <td>delivery:  0.00</td>
                 </tr>
                 <tr>
-                    <td>月销量:</td>
-                    <td><span class="reviewProductInfoTableSellNumber">${p.saleCount}</span> 件</td>
+                    <td>Monthly transaction:</td>
+                    <td><span class="reviewProductInfoTableSellNumber">${p.saleCount}</span> piece</td>
                 </tr>
             </table>
 
             <div class="reviewProductInfoRightBelowDiv">
                 <span class="reviewProductInfoRightBelowImg"><img src="img/site/reviewLight.png"></span>
-                <span class="reviewProductInfoRightBelowText" >现在查看的是 您所购买商品的信息
-于<fmt:formatDate value="${o.createDate}" pattern="yyyy年MM月dd"/>下单购买了此商品 </span>
+                <span class="reviewProductInfoRightBelowText" >What you are viewing now is the information of the product you have purchased
+于<fmt:formatDate value="${o.createDate}" pattern="yyyy:MM:dd"/>Purchased this product </span>
 
             </div>
         </div>
@@ -37,7 +37,7 @@
     <div class="reviewStasticsDiv">
         <div class="reviewStasticsLeft">
             <div class="reviewStasticsLeftTop"></div>
-            <div class="reviewStasticsLeftContent">累计评价 <span class="reviewStasticsNumber"> ${p.reviewCount}</span></div>
+            <div class="reviewStasticsLeftContent">Cumulative comment <span class="reviewStasticsNumber"> ${p.reviewCount}</span></div>
             <div class="reviewStasticsLeftFoot"></div>
         </div>
         <div class="reviewStasticsRight">
@@ -52,7 +52,7 @@
                 <div class="reviewDivlistReviewsEach">
                     <div class="reviewDate"><fmt:formatDate value="${r.createDate}" pattern="yyyy-MM-dd"/></div>
                     <div class="reviewContent">${r.content}</div>
-                    <div class="reviewUserInfo pull-right">${r.user.anonymousName}<span class="reviewUserInfoAnonymous">(匿名)</span></div>
+                    <div class="reviewUserInfo pull-right">${r.user.anonymousName}<span class="reviewUserInfoAnonymous">(anonymous)</span></div>
                 </div>
             </c:forEach>
         </div>
@@ -61,17 +61,17 @@
     <c:if test="${param.showonly!=true}">
         <div class="makeReviewDiv">
             <form method="post" action="foredoreview">
-                <div class="makeReviewText">其他买家，需要你的建议哦！</div>
+                <div class="makeReviewText">Other buyers, need your advice!</div>
                 <table class="makeReviewTable">
                     <tr>
-                        <td class="makeReviewTableFirstTD">评价商品</td>
+                        <td class="makeReviewTableFirstTD">Comment the product</td>
                         <td><textarea name="content"></textarea></td>
                     </tr>
                 </table>
                 <div class="makeReviewButtonDiv">
                     <input type="hidden" name="oid" value="${o.id}">
                     <input type="hidden" name="pid" value="${p.id}">
-                    <button type="submit">提交评价</button>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </div>
